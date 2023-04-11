@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background: lightcoral;
+}
+h3{
+    font-size: 60px;
+    margin: 10px 0 13px;
+    line-height: 60px;
+  }
+
+
+.container{
+    max-width: 300px;
+    width: 100%;
+    background: whitesmoke;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+
+container .title{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before{
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 20px;
+}
+.form .user-details .input-box{
+    width: calc(100% / 2 - 20px);
+    margin: 20px 0 12px 0;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.user-details .input-box{
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    
+}
+.user-details .input-box input{
+    height: 30px;
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    
+ 
+}
+.user-details .input-box .details{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.user-details .input-box input{
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+p.intro{
+    color: black;
+  }
+
+form .button{
+    height: 30px;
+    margin:0px
+    
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    color: darkmagenta;
+    background-color: bisque;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:768px) {
+    h3{
+        font-size: 35px;
+        line-height: 20px;
+        color: white;
+
+    } 
+}  
+
+@media screen and (max-width:480px) {
+    h3{
+        font-size: 20px;
+        line-height: 10px;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media screen and (max-width:768px){
+     body{
+     display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background: blueviolet;  
+    }
+  p{
+    color: white;
+  }
+}
+
+@media screen and (max-width:480px){
+    body{
+    display: block;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 35px;
+    background: darkmagenta;
+    }
+    
+  p{
+    color: white;
+   }
+   
+@media  screen and (min-width:768px) {
+    body{
+        display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background: lightcoral;
+
+    }
+    
+}
+    
